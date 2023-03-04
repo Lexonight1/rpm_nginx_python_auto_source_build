@@ -2,6 +2,7 @@
 python script to auotbuild nginx on fedora
 you might just have to change the versions on upgrades or scrapy the install source site to scrape how they do it
 this is the sloppy very uneligant code:
+```
 /**
   * startCode
   */
@@ -129,4 +130,5 @@ sp.run('sudo chown nginx:root /var/cache/nginx/*', shell=True)
 print('check for errors')
 sp.run(['sudo', 'nginx', '-t'])
 <!-- end code -->
+```
 read it and revise script kiddies :D enjoy
