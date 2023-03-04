@@ -1,7 +1,7 @@
 # rpm_nginx_python_auto_source_build
 python script to auotbuild nginx on fedora
 you might just have to change the versions on upgrades or scrapy the install source site to scrape how they do it
-this is the sloppy very uneligant code:
+this is the sloppy very uneligant code, unfortunately not test code, because i just wanted it to work without overthing it, i do that on errors only not before concept to fruition that wastes time, low and sloppy works just like high and mighty:
 ```
 /**
   * startCode
